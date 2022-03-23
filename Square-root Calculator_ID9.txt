@@ -1,0 +1,21 @@
+make a functionto calculate square root :
+	declar perfectSquare and n = 0 with data type int
+	declare d ,  p ,  a , rootOfs with floot data type
+	if the number givin from user is more than 0 :
+		make a for loop in range of number to more than 0 decreasing 1 by 1 :
+			make a nested for loop started from 1 till it equal to main for loop value and increasing 1 by 1 :
+				if value of nested for loop square equal to value of main for loop value:
+					perfectSquare = main for loop value
+					n = nested for loop value
+					then break the nested for loop
+			if perfectSquare more than 0 then break the main loop
+		d = num - perfectSquare
+		p =d/(2.0*n)
+		A = n+p
+		rootOfs = a-((p*p)/(2.0*a))
+		print the value of rootOfs in screen
+	else if num equal to 0 then the print square root also 0
+	else print no square root for this number
+				
+
+

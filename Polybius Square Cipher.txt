@@ -1,0 +1,45 @@
+importing all needed libs
+
+make a map template called code to store key and value of all possiable characters 
+
+make a function to fill the empty map with key and value coming from user:
+declar a start var of int equal to 65 
+	make a for loop to loop on every character in key givin :
+		make nested for loop to loop on every element in key also:
+			put key as an alpha of start and value of string of element from first for loop + second for loop
+
+
+
+make a function to sreach about a key by its value :
+	make a for loop for every character in string givin to this function:
+		convert character to string 
+		make nested for loop to search in every key in a map :
+			if key equal to the string :
+				return that key
+	return ""
+
+
+
+make a function to encrypt text from user:
+	make  a for loop for every two char in string :
+		search about this two character in code map created above
+		store every value searched above in a variable called encrypted with data type string
+	return encrypted from this function
+	
+	
+
+make a function to decrypt text from user:
+
+	make  a for loop for every char in string :
+		search about this character in code map created above
+		store every value searched above in a variable called encrypted with data type string
+	return encrypted from this function
+
+
+make a function to run the code :
+	print a hello message to user 
+	ask him to encrypt or decrypt or exit from the programme
+	if he wants to encrypt the text then run encrypt function after that reapeat this function again
+	if he wants to decrypt an encrypted text run decrypt function after that reapeat this function again
+	if he wants to exit then exit the programme
+	

@@ -1,0 +1,15 @@
+make a function to convert hexa  to string:
+	decalar a string message  , x var
+	make a for loop started from 0 to size of string given increaseing 2 by 2:
+		x = substr(i , 2)
+		char _char = stoi(x , 0 , 16);
+		message  += _char;
+	return message 
+
+
+make a function to encrypt and decrypt message :
+	print the value returned from message += every char xor with key coming from user 
+
+
+
+

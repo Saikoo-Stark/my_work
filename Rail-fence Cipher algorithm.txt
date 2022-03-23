@@ -1,0 +1,32 @@
+make a function to encrypt the message comming from from user:
+	take message from user 
+	take depth of encryption
+	remove white spaces in message
+	make an empty matrix with n rows = depth and columns = length of message 
+	make a for loop to fill al matrix empty places with dots
+	make a for loop that put all characters in message in zig-zag mode by:
+		put a character in row = column 
+		if row == last row then row = row - 1
+		if row == first row the row = row +1
+		til all characters in message would be done
+	after finishing for loop
+	make an empty string then put every character from the matrix expect dots
+	print the encrypted message to user 
+	
+make a function to decrypt the message commin from user:
+	take message from user 
+	take depth of encryption
+	remove white spaces in message
+	make an empty matrix with n rows = depth and columns = length of message 
+	make a for loop that put all characters in message in zig-zag mode by:
+		put a character in row = column 
+		if row == last row then row = row - 1
+		if row == first row the row = row +1
+		til all characters in message would be done
+	after finishing this for loop , make another for loop to replace all character in matrix with every character in decrypted message
+	make an empty string then put every character from the matrix expect dots
+	print the decrypted message to user
+	
+make a function to run the programme:
+	ask user whether he wants to (encrypt or decrypt) a message or exit from the programme
+	repeat this function permmenentaly after every finished task expect exit task
